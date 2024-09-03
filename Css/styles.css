@@ -39,7 +39,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: rgb(236, 10, 10);
+    color: rgb( 0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,7 +47,7 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #fff; /* Altera apenas a cor do texto ao passar o mouse */
+    color: #de0b0b; /* Altera apenas a cor do texto ao passar o mouse */
 }
 
 nav {
@@ -70,14 +70,22 @@ nav li {
   margin: 0 20px; /* Ajusta el margen a tu gusto */
 }
 
-.icon {
-  flex: 0 0 auto;
-}
+.icon-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: grid;
+    grid-template-areas: "icons";
+    padding: 1rem;
+    justify-content: space-around; /* Distribuye los elementos uniformemente */
+  }
 
 .fab {
   font-size: 24px;
-  color: #333;
+  color: #000000;
 }
+
+
 
 /* Estiliza os títulos h1 */
 h1 {
@@ -144,7 +152,8 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #000; /* Cor de fundo dos itens */
+    background: rgba(0, 0, 0, 0.6);; /* Cor de fundo dos itens */
+    text-align: center;
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -160,7 +169,7 @@ section button:hover {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #de0b0b; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -170,18 +179,20 @@ section button:hover {
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #fff; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #000; /* Cor de fundo do rodapé */
+    background-color: rgba(0, 0, 0, 0.3);; /* Cor de fundo do rodapé */
     color: #fff; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position:fixed; /* Posiciona o rodapé */
+    margin-left: 0%;
+    line-height: 1;
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
     text-decoration-color: #DDDDDD;
