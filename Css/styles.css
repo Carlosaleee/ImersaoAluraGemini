@@ -76,27 +76,24 @@ nav li {
     right: 0;
     display: grid;
     grid-template-areas: "icons";
-    padding: 1rem;
+    padding: 1.5rem;
     justify-content: space-around; /* Distribuye los elementos uniformemente */
   }
 
 .fab {
-  font-size: 24px;
+  font-size: 30px;
   color: #000000;
 }
 
-
-
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     color: #fff;
     text-align: center;
     letter-spacing: 0.4rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.932);
     /* Adiciona uma borda preta de 2px em volta de cada letra */
     -webkit-text-stroke: 2px black;
-    text-stroke: 2px black;
+  
 }
 
 /* Estiliza as seções da página */
@@ -109,8 +106,8 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
+    width: 27rem; /* Largura dos inputs */
+  /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
