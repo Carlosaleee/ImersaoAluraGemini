@@ -76,7 +76,7 @@ nav li {
     right: 0;
     display: grid;
     grid-template-areas: "icons";
-    padding: 1.5rem;
+    padding: 1.2rem;
     justify-content: space-around; /* Distribuye los elementos uniformemente */
   }
 
