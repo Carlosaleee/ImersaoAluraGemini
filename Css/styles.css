@@ -1,8 +1,9 @@
-/* Importa a fonte Chakra Petch do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* Importa a fonte Merriweather Petch do Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Antônio", sans-serif;
     background-color: #DDDDDD;
     display: flex;
     flex-direction: column;
@@ -87,13 +88,13 @@ nav li {
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: #fff;
     text-align: center;
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.3rem;
     /* Adiciona uma borda preta de 2px em volta de cada letra */
     -webkit-text-stroke: 2px black;
-  
+
 }
 
 /* Estiliza as seções da página */
@@ -101,7 +102,7 @@ section {
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    margin-bottom: 2rem; /* Espaçamento abaixo de cada seção */
 }
 
 /* Estiliza os inputs dentro das seções */
@@ -115,7 +116,7 @@ section input {
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
     -webkit-text-stroke: 1px black;
-    
+
 }
 
 /* Estiliza os botões dentro das seções */
@@ -127,14 +128,14 @@ section button {
     color: #f10f0f; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    
+
 }
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
     background-color: #fff; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
-    
+
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
@@ -198,10 +199,36 @@ a {
     color: #fff; /* Cor padrão do link: branco */
     text-decoration: none;
   }
-  
+
   a:hover {
     color: red; /* Cor do link ao passar o mouse: vermelho */
   }
+
+.redes-sociais {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+}
+
+.redes-sociais li {
+    margin: 0 14px; /* Espaçamento entre os ícones */
+}
+
+.fab.fa-instagram {
+    color: #e7510c; /* Azul do GitHub */
+}
+
+.fab.fa-facebook {
+    color: #007bff; /* Azul do GitHub */
+}
+
+.fab.fa-linkedin {
+    color: #007bff; /* Azul do GitHub */
+}
+
+.fab.fa-tiktok {
+    color: #ffffff; /* Azul do GitHub */
+}
 
 @media (max-width: 768px) {
     h1 {

@@ -17,31 +17,31 @@ const dados = [
     {
       nome: 'Pâmela Rosa',
       link: 'https://pt.wikipedia.org/wiki/Pâmela_Rosa',
-      descricao: 'Skatista profissional brasileira, campeã mundial e ícone do skate feminino.',
+      descricao: 'Pâmela Rosa é uma skatista brasileira, nascida em 19 de julho de 1999, em São José dos Campos, Brasil. Ela é duas vezes campeã mundial de skate e conquistou seis medalhas nos X Games. ',
     },
     {
       nome: 'Pedro Barros',
       link: 'https://pt.wikipedia.org/wiki/Pedro_Barros',
-      descricao: 'Skatista brasileiro conhecido por suas performances em bowls. Medalhista olímpico.',
+      descricao: 'Pedro Barros é um skatista profissional brasileiro, nascido em Florianópolis em 16 de março de 1995. Ele é um medalhista olímpico e um dos principais representantes do Brasil no skate, tendo conquistado 8 títulos mundiais e participado das Olimpíadas de Tóquio..',
     },
     {
       nome: 'Dora Varella',
       link: 'https://pt.wikipedia.org/wiki/Dora_Varella',
-      descricao: 'Skatista brasileira, uma das principais representantes da nova geração do skate feminino.',
+      descricao: 'Dora Varella é uma skatista profissional brasileira, nascida em São Paulo em 31 de julho de 2001. Ela compete na modalidade Park e é integrante da Seleção Brasileira de Skate, tendo participado das seletivas para as Olimpíadas de Tóquio.',
     },
     {
       nome: 'Augusto Akio',
       link: 'https://pt.wikipedia.org/wiki/Augusto_Akio',
-      descricao: 'Skatista brasileiro, um dos principais nomes do skate park masculino e representante do Brasil em competições internacionais.',
+      descricao: 'Augusto Akio, conhecido como Japinha, é um skatista brasileiro de 23 anos que se destacou ao se classificar para a decisão dos Jogos de Paris. ',
     },
     {
       nome: 'Luiz Francisco',
       link: 'https://pt.wikipedia.org/wiki/Luiz_Francisco_(skatista)',
-      descricao: 'Pioneiro do skate no Brasil, conhecido por suas manobras inovadoras.',
+      descricao: 'Luiz Francisco, também conhecido como Luizinho, é um skatista profissional brasileiro, nascido em Lorena, no dia 24 de julho de 2000. Ele é ativo nas competições de skate e tem uma presença significativa nas redes sociais, como o Instagram, onde possui mais de 258 mil seguidores.',
     },
     {
       nome: 'Sandro Dias (Mineirinho)',
       link: 'https://pt.wikipedia.org/wiki/Mineirinho_(skatista)',
-      descricao: 'Um dos pioneiros do skate no Brasil, considerado uma lenda viva do esporte.',
+      descricao: 'Sandro Dias, conhecido como Mineirinho, é um skatista profissional brasileiro nascido em Santo André, São Paulo, em 18 de abril de 1975. Ele é reconhecido como um dos maiores nomes do skate na modalidade de transição e começou sua carreira em 1995.',
     }
   ];
