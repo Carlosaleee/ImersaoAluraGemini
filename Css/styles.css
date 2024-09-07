@@ -96,6 +96,9 @@ h1 {
     -webkit-text-stroke: 2px black;
 
 }
+h2 { 
+    color: #f10f0f;
+}
 
 /* Estiliza as seções da página */
 section {
@@ -215,19 +218,19 @@ a {
 }
 
 .fab.fa-instagram {
-    color: #e7510c; /* Azul do GitHub */
+    color: #e7510c; 
 }
 
 .fab.fa-facebook {
-    color: #007bff; /* Azul do GitHub */
+    color: #007bff; 
 }
 
 .fab.fa-linkedin {
-    color: #007bff; /* Azul do GitHub */
+    color: #007bff; 
 }
 
 .fab.fa-tiktok {
-    color: #ffffff; /* Azul do GitHub */
+    color: #ffffff; 
 }
 
 @media (max-width: 768px) {

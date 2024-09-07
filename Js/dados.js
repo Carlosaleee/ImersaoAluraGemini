@@ -15,7 +15,7 @@ const dados = [
       descricao: 'Leticia Bufoni e Silva (São Paulo, 13 de abril de 1993) é uma skatista profissional brasileira, considerada um dos maiores nomes da história do esporte. Criada no bairro Vila Matilde, aos 14 anos mudou-se para a cidade de Los Angeles, na Califórnia, onde tornou-se uma skatista profissional.',
     },
     {
-      nome: 'Pâmela Rosa',
+      nome: 'Pamela Rosa',
       link: 'https://pt.wikipedia.org/wiki/Pâmela_Rosa',
       descricao: 'Pâmela Rosa é uma skatista brasileira, nascida em 19 de julho de 1999, em São José dos Campos, Brasil. Ela é duas vezes campeã mundial de skate e conquistou seis medalhas nos X Games. ',
     },
