@@ -97,7 +97,15 @@ h1 {
 
 }
 h2 { 
-    color: #f10f0f;
+    color: #e60e0e;
+    /* Adiciona uma borda preta de 2px em volta de cada letra */
+    
+}
+
+.iconePequeno {
+    font-size: 18px; /* Ajuste o tamanho conforme necessário */
+    text-align: center;
+    letter-spacing: 0.3rem;
 }
 
 /* Estiliza as seções da página */
