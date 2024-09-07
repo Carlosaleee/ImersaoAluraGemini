@@ -1,4 +1,4 @@
-# Projeto Alura de Busca com Gemini
+# Imersão Dev com Google Gemini
 
 **Descrição:**
 Este projeto é o resultado da Imersão Dev com Gemini, onde aprendi a criar uma página de buscas simples e funcional utilizando HTML, CSS, JavaScript e a inteligência artificial do Google, o Gemini.
